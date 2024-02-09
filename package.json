@@ -1,0 +1,17 @@
+{
+  "name": "express-websockets-example",
+  "version": "1.0.0",
+  "description": "Sample  websocket server using express",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --use-strict app.js"
+  },
+  "author": "Marc Jansing",
+  "dependencies": {
+    "express": "^4.17.3",
+    "ws": "^8.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
